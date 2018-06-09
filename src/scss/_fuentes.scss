@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Source Code Pro';
+  src: url(SourceCodePro-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Chewy';
+  src: url(Chewy-Regular.ttf) format('truetype');
+}
+$primary-font: font-family: 'Source Code Pro', monospace;
+$secundary-font: font-family: 'Chewy', cursive;
