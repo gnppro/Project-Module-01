@@ -1,0 +1,23 @@
+.header {
+    display: grid;
+    /*-------------filas----------------------columnas*/
+    grid-template:60px 250px / 1fr;
+}
+.header .item{
+    border: solid 1px blueviolet;
+}
+
+.descripcion {
+    display: grid;
+    /*-------------filas----------------------columnas*/
+    grid-template:60px 250px / 1fr;
+}
+
+.historial {
+
+}
+
+.opiniones_mapa{
+
+}
+
