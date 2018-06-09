@@ -1,3 +1,4 @@
+
 .header {
     display: grid;
     /*-------------filas----------------------columnas*/
@@ -10,8 +11,18 @@
 .descripcion {
     display: grid;
     /*-------------filas----------------------columnas*/
-    grid-template:60px 250px / repeat;
+    grid-template:250px repeat(2, 200px)/ repeat(2, 1fr);
+    }
+.descripcion .item{
+    border: solid 1px rgb(40, 214, 34);
 }
+.descripcion .item:nth-of-type(1){
+    background-color: black;
+    grid-column: 1 / span 2;
+}   
+}
+
+
 
 .historial {
 
