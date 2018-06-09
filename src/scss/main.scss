@@ -7,4 +7,6 @@
 body{
     margin: 0;
     font-family: $primary-font;
-}
+    body {     display: grid;     grid-row-gap: 30px; }  
+    }
+.container{     display: grid;     grid-gap:10px  10px; }
